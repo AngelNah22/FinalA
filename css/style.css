@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/*---------------Estilos dentro del Cuerpo-------------*/
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: rgb(65, 27, 27);
+    padding: 0 100px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(65, 27, 27, 0.87);
+    font-family:'Oswald', sans-serif;
+}
+
+/*---------------Estilos dentro del Header-1----------*/
+
+.header-1 {
+    display: flex;
+    min-height: 70px;
+    background-color: rgba(255, 127, 80, 0.733);
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.header-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.nombre-pan {
+    font-size: 40px;
+    font-family: 'Shojumaru', cursive;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logoim {
+    height: 70px;
+    margin-right: 10px;
+}
+
+.header-1 nav a {
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header-1 nav a:hover{
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+/*---------------Estilos dentro de Header----------*/
+
+h1 {
+    margin-left: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(../img/portada_nutricion_pan.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.header h1 {
+    text-decoration: none;
+    color: white;
+    background-color: #3f3f3f93;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Elsie', cursive;
+
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoim{
+    height: 90px; 
+    width: 120px;
+    object-fit: cover;
+}
+
+/*---------------Estilos dentro de Inicio----------*/
+
+.inicio {
+    padding: 40px;
+    background: #1717174b;
+    height: 50vh;
+}
+
+/*---------------Estilos dentro de Acerca de Nosotros----------*/
+
+.sau {
+    padding: 40px;
+    background: #ffff;
+    height: 70vh;
+}
+
+/*---------------Estilos dentro de Instalaciones----------*/
+
+.about {
+    padding: 40px;
+    background: #1717174b;
+    height: 70vh;
+}
+
+.about img {
+    height: 40vh;
+    width: 50vh; 
+    margin-bottom: 0.7cm;
+}
+
+/*---------------Estilos dentro de Testimonios----------*/
+
+.price {
+    display: block;
+    padding: 40px;
+    background: #ffff;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    height: 70vh;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 21rem;
+    width: 22rem;
+    background: #1a3fe66c;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 .3 5rem rgba(0, 0, 0, .5);
+    margin: 1rem;
+}
+
+.box-container .box h3 {
+    font-size: 30px;
+    color: #300ef0;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.box img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.next {
+    display: block;
+    max-width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 50px;
+    margin: 20px 20px;
+    padding: 15px 30px;
+    background-color: #300ef0;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.next:hover{
+    background-color: transparent;
+    border: 2px solid #300ef0;
+    color: #300ef0;
+}
+
+/*-------------Estilos dentro del Footer-----------*/
+
+.footer {
+    padding: 70px 30px 20px;
+    background-color: #131010;
+    width: 100%;
+    width: auto;
+}
+  
+.footer .social {
+    display: flex;
+    justify-content: center;
+}
+  
+.footer .social a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.footer .social a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+  
+.footer .social a:hover{
+    opacity: 0.9;
+}
+  
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6px;
+    margin-bottom: 0;
+    text-align: center;
+}
+  
+.footer li a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 25px;
+}
+  
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+  
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: #d1c9c9;
+}
+
+/*------------Estilos para dispositivos----------*/
+
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 40px ;
+        margin: auto;
+        background-position: center;
+    }
+
+    .tittle {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .content {
+        height: 120vh;
+    }
+
+    .header-1{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 10px;
+    }
+
+    .formulario {
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+
+    .form-container {
+        text-align: center;
+        padding: 10px 10px;
+        margin: 0;
+    }
+
+    .inicio {
+        margin-bottom: 0;
+        font-size: 10px;
+        height: auto;
+    }
+
+    .sau {
+        margin-bottom: 0;
+        font-size: 40px;
+        flex-direction: column;
+        padding: 10px 10px;
+        height: auto;
+    }
+
+    .sau img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .about {
+        margin-bottom: 0;
+        font-size: 20px;
+        flex-direction: column;
+        padding: 10px 10px;
+        height: auto;
+    }
+
+    .about img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .price {
+        margin-bottom: 0;
+        font-size: 20px;
+        flex-direction: column;
+        padding: 10px 10px;
+        height: auto;
+    }
+
+    .box-container .box {
+        height: 18rem;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .box-container .box h3 {
+        font-size: 25px;
+    }
+    
+    .box-container .box p {
+        padding: 0 15px;
+        font-size: 17px;
+    }
+
+    .next{
+        margin-left: 30%;
+    }
+
+    .footer ul {
+        flex-direction: column;
+    }
+
+    .footer li {
+        width: auto;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .footer li a {
+        font-size: 20px;
+    }
+
+    .footer .social a {
+        margin: 10px;
+    }
+
+    .footer {
+        bottom: 0;
+        width: 83%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .inicio {
+        margin-bottom: 0;
+        font-size: 10px;
+        height: auto;
+    }
+
+    .sau {
+        margin-bottom: 0;
+        font-size: 40px;
+        flex-direction: column;
+        padding: 10px 10px;
+        height: auto;
+    }
+
+    .sau img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .about {
+        margin-bottom: 0;
+        font-size: 20px;
+        flex-direction: column;
+        padding: 10px 10px;
+        height: auto;
+    }
+
+    .about img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .price {
+        margin-bottom: 0;
+        font-size: 20px;
+        flex-direction: column;
+        padding: 10px 10px;
+        height: auto;
+    }
+
+    .box-container .box {
+        height: 18rem;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .box-container .box h3 {
+        font-size: 25px;
+    }
+    
+    .box-container .box p {
+        padding: 0 15px;
+        font-size: 17px;
+    }
+}
